@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 claude-model-manager.py add claude-sonnet claude-3-5-sonnet-20240620)",
+      "Bash(python3 claude-model-manager.py add lmstudio http://127.0.0.1:1234/v1 --url http://127.0.0.1:1234/v1)",
+      "Bash(python3 claude-model-manager.py list)",
+      "Bash(python3 claude-model-manager.py use lmstudio)",
+      "Bash(python3 -c 'import json; print\\(json.load\\(open\\(\".claude/settings.json\"\\)\\)\\)')",
+      "Bash(python3 claude-model-manager.py remove lmstudio)",
+      "Bash(python3 claude-model-manager.py add lmstudio local-model --url http://127.0.0.1:1234/v1)",
+      "Bash(python3 claude-model-manager.py add broken-test local-model --url http://127.0.0.1:1234/v1)",
+      "Bash(python3 claude-model-manager.py use broken-test)",
+      "Bash(python3 claude-model-manager.py remove broken-test)",
+      "Bash(python3 claude-model-manager.py add test-sync http://127.0.0.1:1234/v1 --url http://127.0.0.1:1234/v1)",
+      "Bash(python3 claude-model-manager.py sync http://127.0.0.1:1234/v1)",
+      "Bash(python3 claude-model-manager.py remove test-sync)",
+      "Bash(python3 claude-model-manager.py add sonnet claude-3-5-sonnet-20240620)",
+      "Bash(python3 claude-model-manager.py use sonnet)",
+      "Bash(python3 -c 'import json; print\\(\"Settings after use:\", json.load\\(open\\(\".claude/settings.json\"\\)\\)\\)')",
+      "Bash(python3 -c 'import json; *)",
+      "Bash(gh pr *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}

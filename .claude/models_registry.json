@@ -1,0 +1,26 @@
+{
+    "lmstudio": {
+        "model_id": "local-model",
+        "base_url": "http://127.0.0.1:1234/v1"
+    },
+    "google/gemma-4-26b-a4b": {
+        "model_id": "google/gemma-4-26b-a4b",
+        "base_url": "http://127.0.0.1:1234"
+    },
+    "qwen3.6-27b-ud-mlx": {
+        "model_id": "qwen3.6-27b-ud-mlx",
+        "base_url": "http://127.0.0.1:1234"
+    },
+    "text-embedding-nomic-embed-text-v1.5": {
+        "model_id": "text-embedding-nomic-embed-text-v1.5",
+        "base_url": "http://127.0.0.1:1234"
+    },
+    "qwen/qwen3.6-27b": {
+        "model_id": "qwen/qwen3.6-27b",
+        "base_url": "http://127.0.0.1:1234"
+    },
+    "qwen_qwen3.6-27b": {
+        "model_id": "qwen_qwen3.6-27b",
+        "base_url": "http://127.0.0.1:1234"
+    }
+}

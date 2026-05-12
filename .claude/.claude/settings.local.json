@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 claude-model-manager.py list)",
+      "Bash(chmod +x /Users/pidroot/dev/pid/claude-model-manager.py)",
+      "Read(//private/tmp/**)",
+      "Bash(/Users/pidroot/dev/pid/claude-model-manager.py list *)",
+      "Bash(/Users/pidroot/dev/pid/claude-model-manager.py remove *)",
+      "Bash(/Users/pidroot/dev/pid/claude-model-manager.py add *)"
+    ]
+  }
+}
